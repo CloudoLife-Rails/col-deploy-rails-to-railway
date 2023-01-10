@@ -18,5 +18,8 @@ module ColDeployRailsToRailway
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # config.hosts << "col-deploy-rails-to-railway-production.up.railway.app"
+    config.hosts << /.*\.up\.railway\.app/
   end
 end
